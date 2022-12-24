@@ -6,4 +6,6 @@ In this project, we use a method that utilizes computer vision to identify facia
 
 ![My Image](images/EAR.png)
 
+![My Image](images/eye_detection.png)
+
 The closing of the eyes is the most dangerous side effect of drowsy driving and because of this we use two different methods to determine if their eyes are closed; in the case that one of the methods fails, the other can act as a safety net. As the system is running, we classify the user in one of 3 categories: alert, low vigilance, or drowsy. Our method is tested on the University of Texas at Arlington Real-Life Drowsiness Dataset (Ghoddoosian, 2019), which is a dataset containing 180 different videos divided into three categories of drowsiness, which include alertness, low vigilance, and drowsiness. In the end, our classification system was able to reach an accuracy of 85% for drowsiness, 88% for alertness, and 57% for low vigilance.
